@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../services/api";
 import Navbar from "../components/Navbar";
-import WishlistCard from "../components/WishlistCard";
+import WishlistCard from "../components/WishListCard";
 
 function Wishlist() {
   const navigate = useNavigate();
