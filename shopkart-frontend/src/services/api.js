@@ -1,8 +1,7 @@
-
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5001",
+  baseURL: "https://shopkart-mern-sigx.onrender.com",
   withCredentials: true
 });
 
